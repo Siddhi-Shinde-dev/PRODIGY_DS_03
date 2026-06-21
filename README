@@ -1,0 +1,70 @@
+# Prodigy InfoTech Data Science Internship - Task 03
+
+## Author
+Siddhi Vinod Shinde
+
+## Task Objective
+
+Build a Decision Tree Classifier to predict whether a customer will purchase a product or service based on demographic and behavioral data.
+
+## Dataset
+
+Bank Marketing Dataset
+
+The dataset contains customer demographic and marketing campaign information used to predict whether a customer will subscribe to a term deposit.
+
+## Tools and Libraries Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Steps Performed
+
+1. Loaded and explored the dataset.
+2. Performed data preprocessing and cleaning.
+3. Encoded categorical variables.
+4. Split the dataset into training and testing sets.
+5. Trained a Decision Tree Classifier using the Gini Index criterion.
+6. Evaluated the model using Accuracy Score, Confusion Matrix, and Classification Report.
+7. Visualized the Decision Tree and model performance.
+
+## Model Used
+
+Decision Tree Classifier
+
+Parameters:
+- Criterion: Gini Index
+- Max Depth: 5
+- Min Samples Split: 10
+
+## Results
+
+- Accuracy Score: 90.48%
+- Model successfully classified customer subscription outcomes.
+
+## Output
+
+### Decision Tree Visualization
+![Decision Tree](tree_gini.png)
+![Decision Tree](tree_entropy.png)
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+## Key Learnings
+
+- Decision Tree Classification
+- Gini Index
+- Data Preprocessing
+- Feature Encoding
+- Model Evaluation
+- Confusion Matrix Analysis
+- Machine Learning Workflow
+
+## Conclusion
+
+This task helped me understand how Decision Tree algorithms work and how machine learning models can be used to predict customer purchasing behavior. I gained practical experience in data preprocessing, model training, evaluation, and visualization.
